@@ -1,12 +1,10 @@
 #
-# Basic modem test program
-# Copyright (C)2003 Nick Kochakian
+# PVR Palette wormhole example
+# Copyright (C) 2024 Andress Barajas
 #   
 
-TARGET = basic.elf
-OBJS = basic.o
-
-KOS_BUILD_SUBARCHS = pristine
+TARGET = wormhole.elf
+OBJS = wormhole.o
 
 all: rm-elf $(TARGET)
 

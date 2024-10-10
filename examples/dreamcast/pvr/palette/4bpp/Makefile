@@ -1,12 +1,11 @@
 #
-# Basic modem test program
-# Copyright (C)2003 Nick Kochakian
+# PVR Palette 4bpp example
+# Copyright (C) 2011 Tvspelsfreak
+# Copyright (C) 2024 Andress Barajas
 #   
 
-TARGET = basic.elf
-OBJS = basic.o
-
-KOS_BUILD_SUBARCHS = pristine
+TARGET = 4bpp.elf
+OBJS = 4bpp.o
 
 all: rm-elf $(TARGET)
 
